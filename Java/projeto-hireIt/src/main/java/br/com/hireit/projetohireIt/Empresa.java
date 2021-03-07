@@ -2,15 +2,23 @@ package br.com.hireit.projetohireIt;
 
 public class Empresa extends Usuario {
 
-    private String profissionaisPublicados;
-    // profissionais contratados
+    private Integer projetosPublicados;
+    private String profissionaisContratados;
 
     //construtor
 
-    public Empresa(Integer id, String nome, String email, String senha, String localizacao,
-                   Double classificacao, String profissionaisPublicados) {
-        super(id, nome, email, senha, localizacao, classificacao);
-        this.profissionaisPublicados = profissionaisPublicados;
+    public Empresa(Integer id,
+                   String nome,
+                   String email,
+                   String senha,
+                   String localizacao,
+                   Double classificacao,
+                   String descricao,
+                   Integer projetosPublicados,
+                   String profissionaisContratados) {
+        super(id, nome, email, senha, localizacao, classificacao, descricao);
+        this.projetosPublicados = projetosPublicados;
+        this.profissionaisContratados = profissionaisContratados;
     }
 
 
@@ -19,5 +27,15 @@ public class Empresa extends Usuario {
     @Override
     public Double avaliar() {
         return null;
+    }
+
+    //getters
+
+    public Integer getProjetosPublicados() {
+        return projetosPublicados;
+    }
+
+    public String getProfissionaisContratados() {
+        return profissionaisContratados;
     }
 }

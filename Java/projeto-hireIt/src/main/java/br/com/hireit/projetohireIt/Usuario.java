@@ -8,6 +8,7 @@ public abstract class Usuario {
     private String senha;
     private String localizacao;
     private Double classificacao;
+    private String descricao;
 
     //metodo
 
@@ -15,13 +16,14 @@ public abstract class Usuario {
 
     //construtor
 
-    public Usuario(Integer id, String nome, String email, String senha, String localizacao, Double classificacao) {
+    public Usuario(Integer id, String nome, String email, String senha, String localizacao, Double classificacao, String descricao) {
         this.id = id;
         this.nome = nome;
         this.email = email;
         this.senha = senha;
         this.localizacao = localizacao;
         this.classificacao = classificacao;
+        this.descricao = descricao;
     }
 
     //Getter
@@ -49,4 +51,6 @@ public abstract class Usuario {
     public Double getClassificacao() {
         return classificacao;
     }
+
+    public String getDescricao() { return descricao; }
 }
