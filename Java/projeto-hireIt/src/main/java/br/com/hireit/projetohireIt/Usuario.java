@@ -1,5 +1,7 @@
 package br.com.hireit.projetohireIt;
 
+import java.util.List;
+
 public abstract class Usuario {
 
     private Integer id;
@@ -14,9 +16,27 @@ public abstract class Usuario {
 
     public abstract Double avaliar();
 
+    public String logar(Usuario usuario, List<Usuario> usuarioLogado){
+
+        if(usuario.getEmail().equals("hireit@gmail.com") && usuario.getSenha().equals("hireIT2021")){
+            usuarioLogado.add(usuario);
+            return "Usuário logado com sucesso!";
+        }else{
+            return "Usuário e/ou senha incorretos";
+        }
+    }
+
     //construtor
 
-    public Usuario(Integer id, String nome, String email, String senha, String localizacao, Double classificacao, String descricao) {
+    public Usuario(
+            Integer id,
+            String nome,
+            String email,
+            String senha,
+            String localizacao,
+            Double classificacao,
+            String descricao
+    ) {
         this.id = id;
         this.nome = nome;
         this.email = email;

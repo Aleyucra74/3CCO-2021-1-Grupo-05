@@ -11,32 +11,34 @@ public class Freelancer extends Usuario{
     private Double experiencia;
     private List<Projeto> projetos;
     private List<TechEnum> tecnologia;
-    private List<Projeto> porjetosRealizados;
+    private List<Projeto> projetosRealizados;
     //projetos em execucao?
 //    private final List<TechEnum> tecnologia = new ArrayList<>(EnumSet.allOf(TechEnum.class));
 
     //construtor
 
-    public Freelancer(Integer id,
-                      String nome,
-                      String email,
-                      String senha,
-                      String localizacao,
-                      Double classificacao,
-                      String descricao,
-                      String funcao,
-                      String precoHora,
-                      Double experiencia,
-                      List<Projeto> projetos,
-                      List<TechEnum> tecnologia,
-                      List<Projeto> porjetosRealizados) {
+    public Freelancer(
+            Integer id,
+            String nome,
+            String email,
+            String senha,
+            String localizacao,
+            Double classificacao,
+            String descricao,
+            String funcao,
+            String precoHora,
+            Double experiencia,
+            List<Projeto> projetos,
+            List<TechEnum> tecnologia,
+            List<Projeto> projetosRealizados
+    ) {
         super(id, nome, email, senha, localizacao, classificacao, descricao);
         this.funcao = funcao;
         this.precoHora = precoHora;
         this.experiencia = experiencia;
         this.projetos = projetos;
         this.tecnologia = tecnologia;
-        this.porjetosRealizados = porjetosRealizados;
+        this.projetosRealizados = projetosRealizados;
     }
 
 
@@ -69,7 +71,7 @@ public class Freelancer extends Usuario{
         return tecnologia;
     }
 
-    public List<Projeto> getPorjetosRealizados() {
-        return porjetosRealizados;
+    public List<Projeto> getProjetosRealizados() {
+        return projetosRealizados;
     }
 }

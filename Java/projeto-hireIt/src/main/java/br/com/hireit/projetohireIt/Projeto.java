@@ -16,13 +16,15 @@ public class Projeto {
     // {[projeto1:"id","nome",],[projeto2: "id","name"]}
 
     //construtor
-    public Projeto(Integer id,
-                   String nome,
-                   String descricao,
-                   String categoria,
-                   Date prazo,
-                   Integer numeroPropostas,
-                   List<TechEnum> habilidade) {
+    public Projeto(
+            Integer id,
+            String nome,
+            String descricao,
+            String categoria,
+            Date prazo,
+            Integer numeroPropostas,
+            List<TechEnum> habilidade
+    ) {
         this.id = id;
         this.nome = nome;
         this.descricao = descricao;
