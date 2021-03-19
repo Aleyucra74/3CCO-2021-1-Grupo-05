@@ -1,0 +1,31 @@
+(apinfo)sugestao de salario(webScraping):
+	{ 
+	 "analista": 1300.00, 
+	 "dev jr": 1200.00,
+	 "senior": 2300.00,
+	 "dba": 3300.00,
+	}
+
+contratacao de empresa:
+// ranquear
+	{
+	 quantidadeTempo(contratacao) X pessoasContratados
+	}
+
+chance de contratacao(match):
+	distanciaKm(1-10)
+
+	*softSkills(1-10)
+	// % autonomia
+	// % lideranca
+	// % proativo
+	// ancora de Carreira
+
+	tecnologias
+
+
+=========================
+oferta/demanda > contrato > feedback
+
+
+<<<metrica>>>
