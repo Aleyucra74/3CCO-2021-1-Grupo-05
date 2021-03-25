@@ -29,3 +29,13 @@ oferta/demanda > contrato > feedback
 
 
 <<<metrica>>>
+
+demanda
+ - periodo e fim
+ - volume de horas?
+ - tech
+ - criterios de aceite?(homologacao/teste)
+ - 
+
+oferta
+ - 
