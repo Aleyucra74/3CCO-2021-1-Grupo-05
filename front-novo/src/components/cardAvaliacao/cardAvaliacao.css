@@ -1,0 +1,22 @@
+.avaliacao-card-projeto{
+    display: flex;
+    align-items: center;
+    margin-left: 4px;
+    font-size: 14px;
+    text-align: left;
+    color: #4C5156;
+}
+
+.avaliacao-card-projeto box-icon{
+    margin-right: 4px;
+}
+
+.span{
+    color: #F4C344;
+    font-weight: bold;
+}
+
+.line-rating{
+    display: flex;
+    margin-left: 12px;
+}

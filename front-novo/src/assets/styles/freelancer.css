@@ -1,0 +1,283 @@
+.label-7-row {
+  display: grid;
+  grid-template-columns: auto auto auto auto auto auto auto;
+  grid-template-rows: 25px;
+  grid-gap: 7px;
+  justify-content: start;
+}
+
+.label-10-row {
+  display: grid;
+  grid-template-columns: repeat(10, 1fr);
+  grid-template-rows: 25px;
+  grid-gap: 7px;
+  justify-content: start;
+}
+
+.label-3-row {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 25px;
+    grid-gap: 7px;
+    justify-content: start;
+}
+
+.card-5-row {
+  display: grid;
+  grid-template-columns: auto auto auto auto auto auto auto;
+  grid-template-rows: 25px;
+  grid-gap: 7px;
+  justify-content: start;
+}
+
+.bg-gray-500 {
+  --tw-bg-opacity: 1;
+  background-color: rgba(51, 51, 51, var(--tw-bg-opacity));
+}
+
+@media only screen and (min-width: 1536px) {
+  .w-300 {
+    width: 75rem;
+  }
+
+  .w-96-new {
+    width: 24rem;
+  }
+}
+
+@media only screen and (max-width: 1535px) {
+  .w-240-new {
+    width: 60rem;
+  }
+
+  .w-96-new {
+    width: 22rem;
+  }
+}
+
+@media only screen and (max-width: 1280px) {
+  .w-180-new {
+    width: 45rem;
+  }
+
+  .w-96-new {
+    width: 22rem;
+  }
+
+  .w-88-new {
+    width: 20rem !important;
+  }
+}
+
+@media only screen and (max-width: 1030px) {
+  .mt-5-new {
+    margin-top: 50px;
+  }
+
+  .w-88-new {
+    width: 20rem !important;
+  }
+
+  .w-full-new {
+    width: 100%;
+  }
+}
+
+@media only screen and (max-width: 620px) {
+  .ml-auto-new {
+    margin-left: auto !important;
+  }
+
+  .mr-auto-new {
+    margin-right: auto !important;
+  }
+}
+
+@media only screen and (min-width: 375px) {
+  .w-36-new {
+    width: 14rem;
+  }
+}
+
+.cardBody > p {
+  max-width: 150ch;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.max-w-8xl {
+  max-width: 90rem;
+}
+
+.pt-54 {
+  padding-top: 16rem;
+}
+
+.flex-center {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.my-3 {
+  margin-top: 0.75rem;
+  margin-bottom: 0.75rem;
+}
+
+.title-hr {
+  width: 50%;
+}
+
+#div-nav > nav {
+  --tw-bg-opacity: 1;
+  background-color: rgba(51, 51, 51, var(--tw-bg-opacity));
+}
+
+ul > .bg-opacity-20 {
+  color: #57d4ff;
+}
+
+#date-button > a > button {
+  background-color: #223474;
+}
+
+#label-span > div {
+  background-color: #223474;
+}
+
+#label-span > div > span {
+  color: white;
+  font-size: 10px;
+}
+
+.w-104 {
+  width: 28rem !important;
+}
+
+.m-4 {
+  margin: 1rem;
+}
+
+.default-bg-blue {
+  background-color: #286fb0 !important;
+}
+
+.default-color-blue {
+  color: #286fb0 !important;
+}
+
+.default-border-blue {
+  border-color: #286fb0 !important;
+}
+
+.w-200 {
+  width: 50rem !important;
+}
+
+.w-300 {
+  width: 75rem;
+}
+
+.w-180 {
+  width: 45rem;
+}
+
+.h-35-important {
+  height: 8.75rem !important;
+}
+
+.h-50-important {
+  height: 12.5rem !important;
+}
+
+.w-90-p {
+  width: 90%;
+}
+
+.color-default-black {
+  color: #24292f !important;
+}
+
+.w-56-new {
+  width: 14rem !important;
+}
+
+.lds-ring {
+  display: inline-block;
+  position: relative;
+  width: 80px;
+  height: 80px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.lds-ring div {
+  box-sizing: border-box;
+  display: block;
+  position: absolute;
+  width: 64px;
+  height: 64px;
+  margin: 8px;
+  border: 8px solid #24292f;
+  border-radius: 50%;
+  animation: lds-ring 1.2s cubic-bezier(0.5, 0, 0.5, 1) infinite;
+  border-color: #24292f transparent transparent transparent;
+}
+.lds-ring div:nth-child(1) {
+  animation-delay: -0.45s;
+}
+.lds-ring div:nth-child(2) {
+  animation-delay: -0.3s;
+}
+.lds-ring div:nth-child(3) {
+  animation-delay: -0.15s;
+}
+@keyframes lds-ring {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+.pt-14 {
+  padding-top: 3.5rem;
+}
+
+.h-60 {
+  height: 15rem;
+}
+
+.h-64 {
+  height: 16rem;
+}
+
+.h-40{
+    height: 10rem;
+}
+
+.w-75-p{
+    width: 90%;
+}
+
+.center {
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+
+.border-rounded-none {
+  border-radius: 0px !important;
+}
+
+.blue-bgc {
+  background-color: #223474 !important;
+}
+
+.color-blue {
+  color: #223474 !important;
+}

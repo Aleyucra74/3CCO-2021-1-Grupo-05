@@ -1,0 +1,54 @@
+.hover-gray:hover {
+    background-color: #FAFAFA;
+}
+
+.rounded-corners {
+    border-radius: 0px !important;
+}
+
+.purple-bgc {
+    background-color: #855CDE !important;
+}
+
+.text-color-white > span {
+    --tw-text-opacity: 1;
+    color: rgba(255, 255, 255, var(--tw-text-opacity)) !important;
+}
+
+.text-color-gray > span {
+    --tw-text-opacity: 1;
+    color: rgba(229, 231, 235, var(--tw-text-opacity));
+}
+
+.color-purple {
+    color: #855CDE !important;
+}
+
+.border-bottom {
+    border-bottom: 1px solid #D0D7DE;
+}
+
+.pt-20 {
+    padding-top: 3rem !important;
+}
+
+.w-32 {
+    width: 8rem !important;
+}
+
+.font-sans {
+    font-family: sans-serif;
+}
+
+.text-large {
+    font-size: 260% !important;
+}
+
+.center {
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+  }

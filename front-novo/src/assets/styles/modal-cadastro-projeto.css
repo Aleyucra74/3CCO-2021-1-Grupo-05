@@ -1,0 +1,23 @@
+.w-fullsize {
+    /* width: 40rem !important; */
+}
+
+.text-size {
+    font-size: 20px !important;
+}
+
+.font-extrabold {
+    font-weight: 700 !important;
+}
+
+.w-100 {
+    width: 100% !important;
+}
+
+.border-minimum > input{
+    border-radius: 0px !important;
+}
+
+.w-25-size {
+    width: 20rem !important;
+}

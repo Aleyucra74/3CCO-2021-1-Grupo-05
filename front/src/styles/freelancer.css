@@ -1,0 +1,96 @@
+.blocao{
+    height: 500px;
+    width: 100%;
+    align-items: center;
+    padding: 2.5rem 1.5rem 0;
+}
+
+.blocao h3{
+    font-size: 25px;
+    text-transform: uppercase;
+    text-align: center;
+    color: #fff;
+}
+
+.blocao h2{
+    color: #7ACDF1;
+}
+
+.blocoleft1{
+    margin-top: 90px;
+    margin: left;
+    margin-left: 90px;
+    display: flex;
+    padding: 5px;
+    width: 420px;
+    height: 180px;
+}
+
+.blocoleft1 p, .blocoright1 p, .blocoright2 p{
+    font-size: 16px;
+    display: flex;
+    padding: 0 8px;
+    margin-top: -25px;
+}
+
+
+.blocoright1, .blocoright2{
+    display: flex;
+    padding: 10px;
+    width: 400px;
+    height: 180px;
+    align-items: center;
+}
+
+.blocoright1 {
+    margin-left: 590px;
+    margin-top: -355px;
+
+}
+
+.blocoright2 {
+    margin-left: 590px;
+    margin-top: 2px;
+}
+
+#grande{
+    margin-top:-32px;
+    width: 500px;
+    height: 280px;
+}
+
+#pequena{
+    margin-top: -6px;
+    width: 105px;
+    height: 105px;
+}
+
+#grande:hover, #pequena:hover{
+    cursor: pointer;
+}
+
+#nomej{
+    margin-top: -6px;
+    font-size: 18px;
+    color: #7ACDF1;
+    width: 0px;
+}
+
+#nomec{
+    margin-top: 12px;
+    font-size: 18px;
+    color: #7ACDF1;
+    width: 0px;
+}
+
+#nomej:hover, #nomec:hover{
+    cursor: pointer;
+    color: #fff;
+}
+
+.empresas-barra{
+ width: 1px;
+ height: 350px;
+ margin-left: 550px;
+ margin-top: -250px;
+}

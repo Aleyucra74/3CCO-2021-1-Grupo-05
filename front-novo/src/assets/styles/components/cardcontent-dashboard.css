@@ -1,0 +1,31 @@
+.width-size {
+    width: 280px !important;
+    height: 94px !important;
+}
+
+.txt-white > p {
+    color: white !important;
+}
+
+.bg-grays{
+    background-color: #333333;
+}
+
+.heading-blue > h1 {
+    color: #57D4FF !important;
+}
+
+.height-fixed {
+    height: 324px !important;
+}
+
+.holder {
+    display: inline !important;
+    margin: -3rem 8rem;
+}
+
+.holder img {
+    max-height: 175px;
+    max-width: 175px;
+    object-fit: cover;
+}

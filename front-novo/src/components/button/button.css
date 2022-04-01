@@ -1,0 +1,12 @@
+.button{
+    background-color: var(--primaryColor);
+    height:40px;
+    color: white;
+    font: bold 18px 'Roboto', sans-serif;
+    border-radius: 3px;
+    transition: .3s;
+}
+
+.button:hover{
+    background-color: var(--primaryColorDark);
+}

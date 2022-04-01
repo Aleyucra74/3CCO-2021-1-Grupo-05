@@ -1,0 +1,15 @@
+.purple-bgc {
+    background-color:#855CDE;
+}
+
+.text-white > span{
+    color: white !important;
+}
+
+.padding-0 > div{
+    padding: 0 !important;
+}
+
+hover-none:hover > span{
+    background-color: #fff !important;
+}

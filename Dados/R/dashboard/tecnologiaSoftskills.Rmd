@@ -1,0 +1,257 @@
+```{r}
+vetorSoftskills <- c(
+    "Aberto para experiências", 
+    "Consienciosidade", 
+    "Extroversão", 
+    "Amabilidade", 
+    "Instabilidade Emocional"
+    );
+
+vetorTecnologias <- c(
+  "Java -> Android", 
+  "Java -> Backend", 
+  "Swift", 
+  "React.JS", 
+  "Python -> Dados",
+  "Python -> Backend",
+  "HTML",
+  "Node",
+  "R -> Dados",
+  "C# -> Jogos",
+  "Vue.JS"
+)
+```
+
+```{r}
+geraDadosSoftskill <- function(tecnologia){
+  dadosSoftskill <- sample(
+      x = vetorSoftskills,
+      size = 100,
+      replace = TRUE
+  )
+  countDados <- table(dadosSoftskill)
+  nomes <- names(countDados)
+  frequencia <- as.numeric(countDados)
+  listSoftskills <- list()
+  cont <- 0;
+  
+  for(i in nomes){
+    cont <-  cont + 1
+    listSoftskills[[length(listSoftskills) + 1]] <- c(tecnologia, i, frequencia[cont]);
+  }
+  
+  return(listSoftskills)
+}
+```
+
+```{r}
+#Softskills predominantes de cada tecnologia
+vetorTecnologiasSoftskill <- c()
+
+for(i in vetorTecnologias){
+  vetorTecnologiasSoftskill <- c(vetorTecnologiasSoftskill, geraDadosSoftskill(i))
+}
+
+tecnologia <- c()
+softskill <- c()
+notaSoftskill <- c()
+
+for(i in vetorTecnologiasSoftskill){
+  tecnologia <- c(tecnologia, i[1])
+  softskill <- c(softskill, i[2])
+  notaSoftskill <- c(notaSoftskill, i[3])
+}
+
+dfTecnologiasSoftskills <- data.frame(tecnologia, softskill, notaSoftskill)
+
+dfTecnologiasSoftskills
+```
+
+```{r}
+geraDadosOfertas <- function(tecnologia){
+  vetorAnos <- c("2019", "2020", "2021")
+  vetorMeses <- c("Janeiro", "Fevereiro", "Março", "Abril", "Maio", "Junho", "Julho", "Agosto", "Setembro", "Outubro", "Novembro", "Dezembro")
+  dadosOfertasCriadas <- sample(
+        x = 1:500,
+        size = 36,
+        replace = TRUE
+    )
+  listOfertasCriadas <- list()
+  cont <- 0;
+  cont2 <- 0;
+  
+  for(a in vetorAnos){
+    for(m in vetorMeses){
+      cont <- cont + 1
+      listOfertasCriadas[[length(listOfertasCriadas) + 1]] <- c(a, m, dadosOfertasCriadas[cont], tecnologia);
+    }
+  }
+  
+  return(listOfertasCriadas)
+}
+```
+
+```{r}
+#Quantidade de ofertas criadas nos ultimos anos
+vetorOfertasCriadas <- c()
+
+for(i in vetorTecnologias){
+  vetorOfertasCriadas <- c(vetorOfertasCriadas, geraDadosOfertas(i))
+}
+
+ano <- c()
+mes <- c()
+quantidadeOfertas <- c()
+tecnologia <- c()
+
+for(i in vetorOfertasCriadas){
+  ano <- c(ano, i[1])
+  mes <- c(mes, i[2])
+  quantidadeOfertas <- c(quantidadeOfertas, i[3])
+  tecnologia <- c(tecnologia, i[4])
+}
+
+dfOfertasCriadas <- data.frame(tecnologia, ano, mes, quantidadeOfertas)
+
+dfOfertasCriadas
+```
+
+```{r}
+#Quantidade de freelancers buscados nos ultimos anos
+vetorFreelancersBuscados <- c()
+
+for(i in vetorTecnologias){
+  vetorFreelancersBuscados <- c(vetorFreelancersBuscados, geraDadosOfertas(i))
+}
+
+ano <- c()
+mes <- c()
+quantidadeFreelancers <- c()
+tecnologia <- c()
+
+for(i in vetorFreelancersBuscados){
+  ano <- c(ano, i[1])
+  mes <- c(mes, i[2])
+  quantidadeFreelancers <- c(quantidadeFreelancers, i[3])
+  tecnologia <- c(tecnologia, i[4])
+}
+
+dfFreelancerBuscados <- data.frame(tecnologia, ano, mes, quantidadeFreelancers)
+
+dfFreelancerBuscados
+```
+
+```{r}
+#Quantidade de projetos buscados nos ultimos anos
+vetorProjetosBuscados <- c()
+
+for(i in vetorTecnologias){
+  vetorProjetosBuscados <- c(vetorProjetosBuscados, geraDadosOfertas(i))
+}
+
+ano <- c()
+mes <- c()
+quantidadeProjetos <- c()
+tecnologia <- c()
+
+for(i in vetorProjetosBuscados){
+  ano <- c(ano, i[1])
+  mes <- c(mes, i[2])
+  quantidadeProjetos <- c(quantidadeProjetos, i[3])
+  tecnologia <- c(tecnologia, i[4])
+}
+
+dfProjetosBuscados <- data.frame(tecnologia, ano, mes, quantidadeProjetos)
+
+dfProjetosBuscados
+```
+
+```{r}
+gerarAvaliacoes <- function(){
+  vetorAvaliacoes <- sample(
+        x = 1:5,
+        size = 100,
+        replace = TRUE
+    )
+  
+  return(mean(vetorAvaliacoes))
+}
+```
+
+```{r}
+listaAvaliacoesTecnologias <- list()
+
+for(t in vetorTecnologias){
+  for(s in vetorSoftskills){
+    listaAvaliacoesTecnologias[[length(listaAvaliacoesTecnologias) + 1]] <- c(t, s, gerarAvaliacoes())
+  }
+}
+
+tecnologia <- c()
+softskill <- c()
+notaAvaliacoes <- c()
+
+for(i in listaAvaliacoesTecnologias){
+  tecnologia <- c(tecnologia, i[1])
+  softskill <- c(softskill, i[2])
+  notaAvaliacoes <- c(notaAvaliacoes, i[3])
+}
+
+dfAvaliacoes <- data.frame(tecnologia, softskill, notaAvaliacoes)
+
+dfAvaliacoes
+```
+
+```{r}
+gerarDadosFreelancers <- function(tecnologia){
+  vetorCidades <- c("Rio Branco", "Maceió", "Macapá", "Manaus", "Salvador", "Fortaleza", "Vitória", "Goiânia", "São Luís", "Cuiabá", "Campo Grande", "Belo Horizonte", "Belém", "João Pessoa", "Curitiba", "Recife", "Teresina", "Rio de Janeiro", "Natal", "Porto Alegre", "Porto Velho", "Boa Vista", "Florianópolis", "São Paulo", "Aracaju", "Palmas")
+
+  vetorFreelancers <- sample(
+        x = 3000: 12000,
+        size = 26,
+        replace = TRUE
+    )
+
+  listaFreelancers <- list()
+  cont <- 0
+  
+  for(i in vetorCidades){
+    cont <- cont + 1
+    listaFreelancers[[length(listaFreelancers) + 1]] <- c(tecnologia, i, vetorFreelancers[cont])
+  }
+  
+  return(listaFreelancers)
+}
+```
+
+```{r}
+vetorFreelancersCidade <- list()
+
+for(i in vetorTecnologias){
+  vetorFreelancersCidade <- c(vetorFreelancersCidade, gerarDadosFreelancers(i))
+}
+
+tecnologia <- c()
+cidade <- c()
+quantidadeFreelancers <- c()
+
+for(f in vetorFreelancersCidade){
+  tecnologia <- c(tecnologia, f[1])
+  cidade <- c(cidade, f[2])
+  quantidadeFreelancers <- c(quantidadeFreelancers, f[3])
+}
+
+dfCidades <- data.frame(tecnologia, cidade, quantidadeFreelancers)
+```
+
+```{r}
+library(readr)
+
+#write_csv(dfTecnologiasSoftskills, "D:\\GitHub\\3CCO-2021-1-Grupo-05\\Dados\\R\\dashboard\\softskills.csv")
+#write_csv(dfOfertasCriadas, "D:\\GitHub\\3CCO-2021-1-Grupo-05\\Dados\\R\\dashboard\\ofertas.csv")
+#write_csv(dfFreelancerBuscados, "D:\\GitHub\\3CCO-2021-1-Grupo-05\\Dados\\R\\dashboard\\freelancers.csv")
+#write_csv(dfProjetosBuscados, "D:\\GitHub\\3CCO-2021-1-Grupo-05\\Dados\\R\\dashboard\\projetos.csv")
+#write_csv(dfAvaliacoes, "D:\\GitHub\\3CCO-2021-1-Grupo-05\\Dados\\R\\dashboard\\avaliacoes.csv")
+write_csv(dfCidades, "D:\\GitHub\\3CCO-2021-1-Grupo-05\\Dados\\R\\dashboard\\cidades.csv")
+```
+

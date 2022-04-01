@@ -1,0 +1,27 @@
+#container-navBar {
+    padding: 10px;
+    margin-bottom: 2%;
+    background-color: #333333;
+}
+
+#navBar-itens li {
+    display: inline;
+    color: white;
+}
+
+#navBar-itens a {
+    padding: 30px;
+}
+
+#navBar-itens a:hover {
+    color: #57D4FF;
+}
+
+#navBarButton {
+    margin-right: 2%;
+}
+
+#navBarButton:hover {
+    background-color: #57D4FF;
+}
+

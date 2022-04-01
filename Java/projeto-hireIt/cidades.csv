@@ -1,0 +1,287 @@
+tecnologia,cidade,quantidadeFreelancers
+Java -> Android,Rio Branco,9486
+Java -> Android,Maceió,3260
+Java -> Android,Macapá,9080
+Java -> Android,Manaus,6340
+Java -> Android,Salvador,9399
+Java -> Android,Fortaleza,5279
+Java -> Android,Vitória,4394
+Java -> Android,Goiânia,8436
+Java -> Android,São Luís,7928
+Java -> Android,Cuiabá,7694
+Java -> Android,Campo Grande,4039
+Java -> Android,Belo Horizonte,8736
+Java -> Android,Belém,5131
+Java -> Android,João Pessoa,9532
+Java -> Android,Curitiba,4365
+Java -> Android,Recife,11393
+Java -> Android,Teresina,11646
+Java -> Android,Rio de Janeiro,7697
+Java -> Android,Natal,10462
+Java -> Android,Porto Alegre,9644
+Java -> Android,Porto Velho,11209
+Java -> Android,Boa Vista,9702
+Java -> Android,Florianópolis,4658
+Java -> Android,São Paulo,6395
+Java -> Android,Aracaju,3396
+Java -> Android,Palmas,9067
+Java -> Backend,Rio Branco,10118
+Java -> Backend,Maceió,7375
+Java -> Backend,Macapá,6322
+Java -> Backend,Manaus,11310
+Java -> Backend,Salvador,3671
+Java -> Backend,Fortaleza,4645
+Java -> Backend,Vitória,11411
+Java -> Backend,Goiânia,7993
+Java -> Backend,São Luís,6384
+Java -> Backend,Cuiabá,6753
+Java -> Backend,Campo Grande,7236
+Java -> Backend,Belo Horizonte,9742
+Java -> Backend,Belém,5507
+Java -> Backend,João Pessoa,6350
+Java -> Backend,Curitiba,6783
+Java -> Backend,Recife,9599
+Java -> Backend,Teresina,9031
+Java -> Backend,Rio de Janeiro,7426
+Java -> Backend,Natal,11122
+Java -> Backend,Porto Alegre,3170
+Java -> Backend,Porto Velho,3801
+Java -> Backend,Boa Vista,10238
+Java -> Backend,Florianópolis,9549
+Java -> Backend,São Paulo,6574
+Java -> Backend,Aracaju,10371
+Java -> Backend,Palmas,10682
+Swift,Rio Branco,5862
+Swift,Maceió,4982
+Swift,Macapá,9231
+Swift,Manaus,9220
+Swift,Salvador,10491
+Swift,Fortaleza,4458
+Swift,Vitória,4343
+Swift,Goiânia,7284
+Swift,São Luís,11839
+Swift,Cuiabá,6178
+Swift,Campo Grande,3920
+Swift,Belo Horizonte,4349
+Swift,Belém,4192
+Swift,João Pessoa,9634
+Swift,Curitiba,7191
+Swift,Recife,8986
+Swift,Teresina,7672
+Swift,Rio de Janeiro,9054
+Swift,Natal,11702
+Swift,Porto Alegre,4367
+Swift,Porto Velho,9422
+Swift,Boa Vista,8712
+Swift,Florianópolis,9159
+Swift,São Paulo,3645
+Swift,Aracaju,6247
+Swift,Palmas,11488
+React.JS,Rio Branco,9453
+React.JS,Maceió,3543
+React.JS,Macapá,8364
+React.JS,Manaus,8384
+React.JS,Salvador,10599
+React.JS,Fortaleza,4839
+React.JS,Vitória,10406
+React.JS,Goiânia,9400
+React.JS,São Luís,4491
+React.JS,Cuiabá,11098
+React.JS,Campo Grande,3178
+React.JS,Belo Horizonte,8105
+React.JS,Belém,3010
+React.JS,João Pessoa,10921
+React.JS,Curitiba,5791
+React.JS,Recife,9192
+React.JS,Teresina,8176
+React.JS,Rio de Janeiro,6942
+React.JS,Natal,5737
+React.JS,Porto Alegre,10837
+React.JS,Porto Velho,4716
+React.JS,Boa Vista,6002
+React.JS,Florianópolis,4734
+React.JS,São Paulo,7588
+React.JS,Aracaju,6222
+React.JS,Palmas,11927
+Python -> Dados,Rio Branco,4196
+Python -> Dados,Maceió,9429
+Python -> Dados,Macapá,6559
+Python -> Dados,Manaus,3494
+Python -> Dados,Salvador,5369
+Python -> Dados,Fortaleza,6129
+Python -> Dados,Vitória,7934
+Python -> Dados,Goiânia,6059
+Python -> Dados,São Luís,9289
+Python -> Dados,Cuiabá,8064
+Python -> Dados,Campo Grande,5184
+Python -> Dados,Belo Horizonte,11386
+Python -> Dados,Belém,9885
+Python -> Dados,João Pessoa,5671
+Python -> Dados,Curitiba,7870
+Python -> Dados,Recife,9754
+Python -> Dados,Teresina,8285
+Python -> Dados,Rio de Janeiro,7462
+Python -> Dados,Natal,8406
+Python -> Dados,Porto Alegre,4769
+Python -> Dados,Porto Velho,6958
+Python -> Dados,Boa Vista,5316
+Python -> Dados,Florianópolis,6634
+Python -> Dados,São Paulo,5306
+Python -> Dados,Aracaju,8716
+Python -> Dados,Palmas,11965
+Python -> Backend,Rio Branco,10654
+Python -> Backend,Maceió,11029
+Python -> Backend,Macapá,4320
+Python -> Backend,Manaus,6441
+Python -> Backend,Salvador,7624
+Python -> Backend,Fortaleza,4476
+Python -> Backend,Vitória,5612
+Python -> Backend,Goiânia,11362
+Python -> Backend,São Luís,11212
+Python -> Backend,Cuiabá,4882
+Python -> Backend,Campo Grande,11086
+Python -> Backend,Belo Horizonte,7369
+Python -> Backend,Belém,4396
+Python -> Backend,João Pessoa,4488
+Python -> Backend,Curitiba,3633
+Python -> Backend,Recife,7165
+Python -> Backend,Teresina,8443
+Python -> Backend,Rio de Janeiro,3075
+Python -> Backend,Natal,3259
+Python -> Backend,Porto Alegre,11417
+Python -> Backend,Porto Velho,6442
+Python -> Backend,Boa Vista,11022
+Python -> Backend,Florianópolis,5513
+Python -> Backend,São Paulo,9770
+Python -> Backend,Aracaju,10959
+Python -> Backend,Palmas,7755
+HTML,Rio Branco,5859
+HTML,Maceió,11099
+HTML,Macapá,11329
+HTML,Manaus,6495
+HTML,Salvador,9679
+HTML,Fortaleza,4349
+HTML,Vitória,7123
+HTML,Goiânia,10946
+HTML,São Luís,8959
+HTML,Cuiabá,5516
+HTML,Campo Grande,4649
+HTML,Belo Horizonte,7124
+HTML,Belém,10436
+HTML,João Pessoa,5515
+HTML,Curitiba,7426
+HTML,Recife,5952
+HTML,Teresina,4150
+HTML,Rio de Janeiro,8613
+HTML,Natal,11776
+HTML,Porto Alegre,3593
+HTML,Porto Velho,7253
+HTML,Boa Vista,7692
+HTML,Florianópolis,10319
+HTML,São Paulo,7989
+HTML,Aracaju,9140
+HTML,Palmas,11837
+Node,Rio Branco,10417
+Node,Maceió,8533
+Node,Macapá,9211
+Node,Manaus,4817
+Node,Salvador,10762
+Node,Fortaleza,9276
+Node,Vitória,6469
+Node,Goiânia,3838
+Node,São Luís,4330
+Node,Cuiabá,9757
+Node,Campo Grande,8655
+Node,Belo Horizonte,7953
+Node,Belém,10815
+Node,João Pessoa,4481
+Node,Curitiba,4983
+Node,Recife,6920
+Node,Teresina,10291
+Node,Rio de Janeiro,3650
+Node,Natal,9919
+Node,Porto Alegre,10053
+Node,Porto Velho,5440
+Node,Boa Vista,3100
+Node,Florianópolis,11642
+Node,São Paulo,4769
+Node,Aracaju,3196
+Node,Palmas,6435
+R -> Dados,Rio Branco,8777
+R -> Dados,Maceió,10472
+R -> Dados,Macapá,8600
+R -> Dados,Manaus,10467
+R -> Dados,Salvador,11430
+R -> Dados,Fortaleza,10499
+R -> Dados,Vitória,9913
+R -> Dados,Goiânia,4033
+R -> Dados,São Luís,4275
+R -> Dados,Cuiabá,5736
+R -> Dados,Campo Grande,6977
+R -> Dados,Belo Horizonte,6973
+R -> Dados,Belém,9501
+R -> Dados,João Pessoa,4828
+R -> Dados,Curitiba,9716
+R -> Dados,Recife,8500
+R -> Dados,Teresina,4410
+R -> Dados,Rio de Janeiro,11675
+R -> Dados,Natal,7488
+R -> Dados,Porto Alegre,4743
+R -> Dados,Porto Velho,3228
+R -> Dados,Boa Vista,5436
+R -> Dados,Florianópolis,7286
+R -> Dados,São Paulo,5609
+R -> Dados,Aracaju,5607
+R -> Dados,Palmas,3368
+C# -> Jogos,Rio Branco,5643
+C# -> Jogos,Maceió,7837
+C# -> Jogos,Macapá,8728
+C# -> Jogos,Manaus,9618
+C# -> Jogos,Salvador,7111
+C# -> Jogos,Fortaleza,6173
+C# -> Jogos,Vitória,4148
+C# -> Jogos,Goiânia,9038
+C# -> Jogos,São Luís,10827
+C# -> Jogos,Cuiabá,11314
+C# -> Jogos,Campo Grande,11085
+C# -> Jogos,Belo Horizonte,4890
+C# -> Jogos,Belém,7791
+C# -> Jogos,João Pessoa,4275
+C# -> Jogos,Curitiba,11543
+C# -> Jogos,Recife,3353
+C# -> Jogos,Teresina,3276
+C# -> Jogos,Rio de Janeiro,10241
+C# -> Jogos,Natal,10467
+C# -> Jogos,Porto Alegre,3107
+C# -> Jogos,Porto Velho,11879
+C# -> Jogos,Boa Vista,3420
+C# -> Jogos,Florianópolis,4289
+C# -> Jogos,São Paulo,9851
+C# -> Jogos,Aracaju,9183
+C# -> Jogos,Palmas,4942
+Vue.JS,Rio Branco,9576
+Vue.JS,Maceió,9099
+Vue.JS,Macapá,5990
+Vue.JS,Manaus,3224
+Vue.JS,Salvador,6387
+Vue.JS,Fortaleza,6161
+Vue.JS,Vitória,5506
+Vue.JS,Goiânia,8207
+Vue.JS,São Luís,4159
+Vue.JS,Cuiabá,5192
+Vue.JS,Campo Grande,6240
+Vue.JS,Belo Horizonte,8433
+Vue.JS,Belém,6352
+Vue.JS,João Pessoa,7643
+Vue.JS,Curitiba,3831
+Vue.JS,Recife,5518
+Vue.JS,Teresina,6120
+Vue.JS,Rio de Janeiro,9994
+Vue.JS,Natal,6524
+Vue.JS,Porto Alegre,4929
+Vue.JS,Porto Velho,6580
+Vue.JS,Boa Vista,3657
+Vue.JS,Florianópolis,3860
+Vue.JS,São Paulo,3935
+Vue.JS,Aracaju,11077
+Vue.JS,Palmas,10078

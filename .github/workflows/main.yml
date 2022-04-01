@@ -1,0 +1,25 @@
+name: main
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    env:
+      working-directory: ./front
+    steps:
+      - uses: actions/checkout@v2
+      - name: Configure AWS Credentials
+        uses: aws-actions/configure-aws-credentials@v1
+        with:
+          aws-access-key-id: ${{ secrets.AWS_ACCESS_KEY_ID }}
+          aws-secret-access-key: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
+          aws-region: "us-east-1"
+      - name: Build React App
+        working-directory: ${{env.working-directory}}
+        run: npm install && npm run build
+      - name: Deploy app build to S3 bucket
+        run: aws s3 sync ./dist/ s3://hireit-frontend-s3-bucket --delete

@@ -1,0 +1,26 @@
+.color-green-proposta {
+    background-color: #35A04D;
+}
+.color-yellow-proposta {
+    background-color: #FBE203;
+}
+.color-red-proposta {
+    background-color: #CC4C4C;
+}
+
+
+.scrolling-wrapper {
+    display: flex;
+    flex-wrap: nowrap;
+    overflow-x: auto !important;
+    -webkit-overflow-scrolling: touch !important;
+}
+
+.btn-red-refuse {
+    background-color: #CC4C4C !important;
+}
+
+.btn-green-accept {
+    background-color: #35A04D !important;
+}
+

@@ -1,0 +1,284 @@
+.right{
+    float: right;
+}
+
+.left{
+    float: left;
+}
+
+.container{}
+/* ----------------------------------------- */
+.proj-info{
+    width: 60%;
+    height: 100%;
+    margin-bottom: 20px;
+}
+
+.proj-info H2{
+    margin-top: 20px;
+    font-size: 25px;
+}
+
+.proj-info H5{
+    color: #393535;
+    padding-left: 10px;
+}
+
+.proj-info H3{
+    color: #45E397;
+    font-size: 25px;
+    margin-top: 20px;
+}
+
+.desc-proj{
+    grid-column: auto;
+}
+
+.description{
+    
+    background: #C4C4C4;
+    margin-top: 60px;
+    border-radius: 14px;
+    min-height: 200px;
+    max-height: 400px;
+}
+
+.habilidade{
+    height: 120px;
+    background: #C4C4C4;
+    margin-top: 20px;
+    border-radius: 14px;
+    min-height: 190px;
+    max-height: 320px;
+}
+
+.text-basic{
+    padding: 10px;
+    padding-left: 10px;
+    color:#403D3D;
+    overflow: auto;
+    border-radius: 8px;
+
+}
+
+.fs-16{
+    font-size: 16px;
+}
+
+/* ----------------------------------------- */
+.prop-info{
+    width: 35%;
+    height: 420px;
+    margin-top: 40px;
+    margin-bottom: 20px;
+}
+
+.prof-circle{
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+    margin: auto;
+}
+
+#PerfilEmpresa{
+    height: 180px;
+    width: 190px;
+    margin: auto;
+}
+
+.prop-info h2{
+    text-align: center
+}
+
+.prop-info h5{
+    text-align: center
+}
+
+.button-prop{
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    font-size: 18px;
+    padding: 5px;
+    background-color: var(--color-primary);
+    border: 1px solid var(--color-primary);
+    border-radius: 10px;
+    width: 70%;
+    margin-top: 20px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    text-decoration: none;
+}
+
+.button-prop:hover {
+    cursor: pointer;
+    opacity: 0.9;
+    background-color: var(--color-white);
+    transition-duration: 0.8s;
+    border: 1px solid var(--color-white);
+}
+
+.proj-dados{
+    height: 80px;
+    width: 70%;
+    background: crimson;
+    margin-top: 15px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto ;
+    border-radius: 14px;
+    background: #C4C4C4;
+    font-size: 20px;
+    position: relative 
+}
+
+.prop-info H2 {
+    margin-top: -8px;
+    font-size: 25px;
+}
+.prop-info H5 {
+    font-size: 14px;
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.prop-info H5:hover {
+    color: #000;
+    transition-duration: 0.5s;
+}
+
+.proj-dados p {
+    color: #000;
+    font-size: 18px;
+    margin-left: 10px;
+    margin-top: 5px;
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%)
+}
+
+.proj-dados b{
+    color: #080842;
+}
+
+a{
+    text-decoration: none;
+}
+
+
+/* ------------------ NOS CONHEÇA  ----------------------- */
+
+.bloco{
+    height: 500px;
+    width: 100%;
+    border: 1px solid white;
+    border-radius: 20px;
+    align-items: center;
+    padding: 2.5rem 1.5rem 0;
+    backdrop-filter: blur(10px);
+}
+
+.bloco h3{
+    text-transform: uppercase;
+    text-align: center;
+    color: #7ACDF1;
+}
+.bleft1, .bleft2{
+    margin: left;
+    margin-left: 60px;
+    display: flex;
+    padding: 5px;
+    width: 450px;
+    height: 180px;
+    align-items: center;
+}
+
+.bleft1 p, .bleft2 p, .bright1 p, .bright2 p{
+    font-size: 16px;
+    display: flex;
+    padding: 0 10px;
+}
+
+.bright1 {
+    margin-left: 560px;
+    margin-top: -360px;
+    display: flex;
+    padding: 10px;
+    width: 450px;
+    height: 180px;
+    align-items: center;
+}
+
+.bright2 {
+    margin-left: 560px;
+    margin-top: 2px;
+    display: flex;
+    padding: 10px;
+    width: 450px;
+    height: 180px;
+}
+
+#Pthandpc{
+    width: 200px;
+}
+
+
+/* ------------------ NUVEM WORD ----------------------- */
+
+.blocoleft{
+    margin: left;
+    margin-left: 60px;
+    display: flex;
+    padding: 5px;
+    width: 450px;
+    height: 180px;
+    align-items: center;
+}
+
+.blocoleft p{
+    margin-top: 240px;
+    font-size: 18px;
+    display: flex;
+    padding: 0 10px;
+}
+
+.bloco h5{
+    font-size: 17px;
+    align-items: left;
+    margin-left: 10px;
+}
+
+#Toferdeman{
+    display: flex;
+    width: 400px;
+}
+
+#divdemanda h5, #divoferta h5{
+    margin-left: 90px;
+    margin-bottom: 6px;
+}
+
+#divoferta h5{
+    margin-top: -100px;
+    margin-bottom: 20px;
+}
+
+#divdemanda{
+    margin-top: -120px;
+    margin-left: 50px;
+}
+
+#divoferta{
+    margin-top: -255px;
+    margin-left: 620px;
+}
+
+.nuvem-barra{
+    width: 1px;
+    height: 190px;
+    margin-left: 540px;
+    margin-top: -250px;
+}

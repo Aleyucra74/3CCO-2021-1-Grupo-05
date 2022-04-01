@@ -1,0 +1,25 @@
+:root {
+    --color-primary : #7ACDF1;
+    --color-second : #000;
+    --color-blurred : #232323;
+    --color-white : #fff;
+    --color-facebook : #3B5998;
+}
+
+* {
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap');
+
+hmtl, body {
+    font-family: 'Roboto', sans-serif;
+    font-size: 25px;
+    height: 100vh;
+    color:#FFF;
+}
+

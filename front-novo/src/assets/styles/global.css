@@ -1,0 +1,123 @@
+:root {
+    --primaryColor: #286FB0;
+    --primaryColorDark: #24386B;
+    --freelancerColor: #178c94;
+    --projetoColor: #855CDE;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: #24292F;
+}
+
+body, input, button, textarea{
+    font: 400 16px 'Roboto', sans-serif
+}
+
+html,body{
+    width: 100%;
+    height: 100%;
+}
+
+.container{
+    max-width: 1280px;
+    margin: 0 auto;
+    padding: 0 2%;
+}
+
+.w20{
+    float: left;
+    width: 20%;
+}
+
+.w25{
+    float: left;
+    width: 25%;
+}
+
+.w30{
+    float: left;
+    width: 30%;
+}
+
+.w33{
+    float: left;
+    width: 33%;
+}
+
+.w40{
+    float: left;
+    width: 40%;
+}
+
+.w50{
+    float: left;
+    width: 50%;
+}
+
+.w60{
+    float: left;
+    width: 60%;
+}
+
+.w70{
+    float: left;
+    width: 70%;
+}
+
+.w75{
+    float: left;
+    width: 75%;
+}
+
+.w80{
+    float: left;
+    width: 80%;
+}
+
+.clear{
+    clear:both;
+}
+
+.darkscreen{
+    background-color: rgba(0, 0, 0, 0.4);
+    width: 100%;
+    height: 100%;
+}
+
+.h2{
+    font: bold 32px 'Poppins', sans-serif;
+}
+
+.h3{
+    font: 600 24px 'Roboto', sans-serif;
+}
+
+.a{
+    color: var(--primaryColor);
+    font-weight: bold;
+}
+
+::-webkit-scrollbar {
+    width: 10px;
+}
+
+::-webkit-scrollbar-track {
+    background: #f1f1f1; 
+}
+
+::-webkit-scrollbar-thumb {
+    background: var(--primaryColor);
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: var(--primaryColorDark); 
+}
+
+@media screen and (max-width: 768px){
+    .w20, .w25, .w30, .w33, .w40, .w60, .w70, .w75, .w80{
+        width: 100%;
+    }
+}

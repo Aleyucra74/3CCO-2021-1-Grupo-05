@@ -1,0 +1,93 @@
+body {
+    background-image: url(../images/backgroundEmpresas.png) !important;
+    background-position: center;
+    background-size: 100% auto ;
+    background-attachment: fixed;
+}
+
+.section-title-empresas {
+    display: flex;
+    flex-direction: column;
+    padding-top: 30px;
+}
+
+.section-title-empresas h2 {
+    font-family: 'Roboto', sans-serif;
+    font-size: 26px;
+    font-weight: bold;
+    color: white;
+    text-align: center;
+    line-height: 2.5rem;
+}
+
+#empresas {
+    color: #7ACDF1;
+    font-size: 60px;
+}
+
+.section-empresas-left {
+    display: flex;
+    float: left;
+    width: 50%;
+    flex-direction: column;
+    padding-left: 12%;
+    margin-top: 2%;
+}
+
+.section-empresas-left h1 {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 39;
+    font-size: 15px;
+    text-align: center;
+    padding-top: 15px;
+    padding-bottom: 60px;
+    width: 320px;
+}
+
+#img-bandtec {
+    width: 55%;
+    
+}
+
+#img-deloitte {
+    width: 55%;
+}
+
+
+
+.section-empresas-right {
+    display: flex;
+    float: right;
+    width: 50%;
+    flex-direction: column;
+    margin-top: -26%;
+    padding-left: 15%;
+}
+
+.section-empresas-right h1 {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 39;
+    font-size: 15px;
+    text-align: center;
+    padding-top: 12px;
+    padding-bottom: 60px;
+    width: 280px;
+}
+
+#img-c6 {
+    width: 60%;
+    
+}
+
+#img-accenture {
+    width: 60%;
+}
+
+.empresas-barra1{
+    width: 1px;
+    height: 350px;
+    margin-left: 0px;
+    margin-top: 40px;
+    display: flex;
+    margin-right: 0;
+   }

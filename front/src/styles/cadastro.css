@@ -1,0 +1,119 @@
+
+.section-cadastro{
+    width: 50%;
+    padding-top: 15px;
+    float: left;
+}
+
+.div-cadastro {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 2.5rem 1.5rem 0;
+    padding-bottom: 40px;
+    border: 2px solid white;
+    border-radius: 15px;
+    backdrop-filter: blur(15px);
+    margin: 0 4rem 0 6rem;
+    min-height: 450px;
+    min-width: 372px;
+}
+
+.div-titulo h2 {
+    font-family: 'Roboto', sans-serif;
+    color: var(--color-primary);
+    font-size: 30px;
+    font-weight: 900;
+    text-align: start;
+    padding-bottom: 20px;
+}
+
+/* inputs */
+/* .input-label {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    font-size: 10px;
+    width: 100%;
+    padding: 0 10px;
+} */
+
+.input-h2 {
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    margin: 10px 0;
+}
+
+.input-label {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 39;
+    font-size: 15px;
+    color: var(--color-white);
+    background: none;
+    border-radius: 12px;
+    border: 1px solid white;
+    width: 100%;
+    height: 35px;
+    padding: 0 15px;
+    outline: none;
+}
+
+.input-label > input:focus {
+    border: 1px solid var(--color-primary);
+}
+
+.input-errors {
+    font-family: 'Roboto', sans-serif;
+    font-size: 15px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    color: #ff8989;
+}
+
+.button-cadastrar {
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    font-size: 12px;
+    padding: 5px;
+    color: #000;
+    background: var(--color-white);
+    border-radius: 8px;
+    border: 1px solid white;
+    width: 95%;
+    padding: 10px 4.5em;
+    margin-top: 7%;
+    margin-left: 10px;
+}   
+
+.button-cadastrar:hover {
+    cursor: pointer;
+    opacity: 0.9;
+    background-color: #7ACDF1;
+    transition-duration: 0.8s;
+    border: 1px solid;
+}
+
+.section-texto {
+    float: right;
+    width: 50%;
+    padding-top: 4em;
+}
+
+.section-texto h2 {
+    font-family: 'Oswald', sans-serif;
+    color: var(--color-primary);
+    font-size: 40px;
+    margin-left: 50px;
+}
+
+.section-texto p {
+    font-family: 'Roboto', sans-serif;
+    font-size: 25px;
+    font-weight: bold;
+    text-align: start;
+    line-height: 2.5rem;
+    margin-left: 50px;
+}
+
+#Txtagora {
+    color: #7ACDF1;
+}

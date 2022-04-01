@@ -1,0 +1,15 @@
+*No CMD*
+python -m venv CSV
+
+cd CSV/Scripts
+activate.bat
+
+pip install mysqlclient
+pip install pyodbc
+
+*Fazer o download desse driver para conexão com o azure*
+https://docs.microsoft.com/en-us/sql/connect/odbc/download-odbc-driver-for-sql-server?redirectedfrom=MSDN&view=sql-server-ver15
+
+*configurar as informações do seu banco local*
+*configurar a senha do banco no azure*
+

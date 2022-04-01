@@ -1,0 +1,397 @@
+tecnologia,ano,mes,quantidadeProjetos
+Java -> Android,2019,Janeiro,142
+Java -> Android,2019,Fevereiro,399
+Java -> Android,2019,Março,308
+Java -> Android,2019,Abril,610
+Java -> Android,2019,Maio,942
+Java -> Android,2019,Junho,1024
+Java -> Android,2019,Julho,700
+Java -> Android,2019,Agosto,1208
+Java -> Android,2019,Setembro,1062
+Java -> Android,2019,Outubro,404
+Java -> Android,2019,Novembro,1224
+Java -> Android,2019,Dezembro,515
+Java -> Android,2020,Janeiro,639
+Java -> Android,2020,Fevereiro,324
+Java -> Android,2020,Março,164
+Java -> Android,2020,Abril,229
+Java -> Android,2020,Maio,1244
+Java -> Android,2020,Junho,589
+Java -> Android,2020,Julho,1175
+Java -> Android,2020,Agosto,477
+Java -> Android,2020,Setembro,504
+Java -> Android,2020,Outubro,1169
+Java -> Android,2020,Novembro,370
+Java -> Android,2020,Dezembro,442
+Java -> Android,2021,Janeiro,477
+Java -> Android,2021,Fevereiro,119
+Java -> Android,2021,Março,791
+Java -> Android,2021,Abril,409
+Java -> Android,2021,Maio,419
+Java -> Android,2021,Junho,730
+Java -> Android,2021,Julho,567
+Java -> Android,2021,Agosto,233
+Java -> Android,2021,Setembro,298
+Java -> Android,2021,Outubro,493
+Java -> Android,2021,Novembro,878
+Java -> Android,2021,Dezembro,494
+Java -> Backend,2019,Janeiro,905
+Java -> Backend,2019,Fevereiro,816
+Java -> Backend,2019,Março,906
+Java -> Backend,2019,Abril,955
+Java -> Backend,2019,Maio,629
+Java -> Backend,2019,Junho,1086
+Java -> Backend,2019,Julho,382
+Java -> Backend,2019,Agosto,265
+Java -> Backend,2019,Setembro,725
+Java -> Backend,2019,Outubro,1001
+Java -> Backend,2019,Novembro,484
+Java -> Backend,2019,Dezembro,803
+Java -> Backend,2020,Janeiro,650
+Java -> Backend,2020,Fevereiro,207
+Java -> Backend,2020,Março,1222
+Java -> Backend,2020,Abril,356
+Java -> Backend,2020,Maio,383
+Java -> Backend,2020,Junho,699
+Java -> Backend,2020,Julho,1201
+Java -> Backend,2020,Agosto,953
+Java -> Backend,2020,Setembro,850
+Java -> Backend,2020,Outubro,916
+Java -> Backend,2020,Novembro,238
+Java -> Backend,2020,Dezembro,202
+Java -> Backend,2021,Janeiro,1192
+Java -> Backend,2021,Fevereiro,1062
+Java -> Backend,2021,Março,1229
+Java -> Backend,2021,Abril,324
+Java -> Backend,2021,Maio,608
+Java -> Backend,2021,Junho,1004
+Java -> Backend,2021,Julho,441
+Java -> Backend,2021,Agosto,666
+Java -> Backend,2021,Setembro,515
+Java -> Backend,2021,Outubro,580
+Java -> Backend,2021,Novembro,229
+Java -> Backend,2021,Dezembro,1124
+Swift,2019,Janeiro,975
+Swift,2019,Fevereiro,655
+Swift,2019,Março,509
+Swift,2019,Abril,738
+Swift,2019,Maio,325
+Swift,2019,Junho,537
+Swift,2019,Julho,374
+Swift,2019,Agosto,789
+Swift,2019,Setembro,253
+Swift,2019,Outubro,763
+Swift,2019,Novembro,792
+Swift,2019,Dezembro,1129
+Swift,2020,Janeiro,567
+Swift,2020,Fevereiro,514
+Swift,2020,Março,264
+Swift,2020,Abril,805
+Swift,2020,Maio,613
+Swift,2020,Junho,635
+Swift,2020,Julho,119
+Swift,2020,Agosto,812
+Swift,2020,Setembro,524
+Swift,2020,Outubro,768
+Swift,2020,Novembro,516
+Swift,2020,Dezembro,1225
+Swift,2021,Janeiro,1079
+Swift,2021,Fevereiro,147
+Swift,2021,Março,763
+Swift,2021,Abril,588
+Swift,2021,Maio,1128
+Swift,2021,Junho,402
+Swift,2021,Julho,740
+Swift,2021,Agosto,798
+Swift,2021,Setembro,278
+Swift,2021,Outubro,841
+Swift,2021,Novembro,338
+Swift,2021,Dezembro,650
+React.JS,2019,Janeiro,691
+React.JS,2019,Fevereiro,994
+React.JS,2019,Março,694
+React.JS,2019,Abril,767
+React.JS,2019,Maio,123
+React.JS,2019,Junho,1071
+React.JS,2019,Julho,243
+React.JS,2019,Agosto,1122
+React.JS,2019,Setembro,1144
+React.JS,2019,Outubro,514
+React.JS,2019,Novembro,710
+React.JS,2019,Dezembro,560
+React.JS,2020,Janeiro,956
+React.JS,2020,Fevereiro,620
+React.JS,2020,Março,834
+React.JS,2020,Abril,837
+React.JS,2020,Maio,564
+React.JS,2020,Junho,1233
+React.JS,2020,Julho,371
+React.JS,2020,Agosto,182
+React.JS,2020,Setembro,1130
+React.JS,2020,Outubro,472
+React.JS,2020,Novembro,146
+React.JS,2020,Dezembro,280
+React.JS,2021,Janeiro,1206
+React.JS,2021,Fevereiro,847
+React.JS,2021,Março,797
+React.JS,2021,Abril,315
+React.JS,2021,Maio,723
+React.JS,2021,Junho,307
+React.JS,2021,Julho,1174
+React.JS,2021,Agosto,243
+React.JS,2021,Setembro,488
+React.JS,2021,Outubro,424
+React.JS,2021,Novembro,976
+React.JS,2021,Dezembro,954
+Python -> Dados,2019,Janeiro,1030
+Python -> Dados,2019,Fevereiro,968
+Python -> Dados,2019,Março,206
+Python -> Dados,2019,Abril,450
+Python -> Dados,2019,Maio,1240
+Python -> Dados,2019,Junho,697
+Python -> Dados,2019,Julho,1173
+Python -> Dados,2019,Agosto,817
+Python -> Dados,2019,Setembro,1111
+Python -> Dados,2019,Outubro,855
+Python -> Dados,2019,Novembro,578
+Python -> Dados,2019,Dezembro,957
+Python -> Dados,2020,Janeiro,632
+Python -> Dados,2020,Fevereiro,228
+Python -> Dados,2020,Março,267
+Python -> Dados,2020,Abril,1196
+Python -> Dados,2020,Maio,513
+Python -> Dados,2020,Junho,1050
+Python -> Dados,2020,Julho,182
+Python -> Dados,2020,Agosto,279
+Python -> Dados,2020,Setembro,918
+Python -> Dados,2020,Outubro,908
+Python -> Dados,2020,Novembro,584
+Python -> Dados,2020,Dezembro,1029
+Python -> Dados,2021,Janeiro,267
+Python -> Dados,2021,Fevereiro,846
+Python -> Dados,2021,Março,508
+Python -> Dados,2021,Abril,385
+Python -> Dados,2021,Maio,719
+Python -> Dados,2021,Junho,277
+Python -> Dados,2021,Julho,790
+Python -> Dados,2021,Agosto,1021
+Python -> Dados,2021,Setembro,405
+Python -> Dados,2021,Outubro,818
+Python -> Dados,2021,Novembro,639
+Python -> Dados,2021,Dezembro,338
+Python -> Backend,2019,Janeiro,1022
+Python -> Backend,2019,Fevereiro,1183
+Python -> Backend,2019,Março,699
+Python -> Backend,2019,Abril,744
+Python -> Backend,2019,Maio,736
+Python -> Backend,2019,Junho,630
+Python -> Backend,2019,Julho,673
+Python -> Backend,2019,Agosto,434
+Python -> Backend,2019,Setembro,637
+Python -> Backend,2019,Outubro,347
+Python -> Backend,2019,Novembro,445
+Python -> Backend,2019,Dezembro,394
+Python -> Backend,2020,Janeiro,423
+Python -> Backend,2020,Fevereiro,1002
+Python -> Backend,2020,Março,1075
+Python -> Backend,2020,Abril,205
+Python -> Backend,2020,Maio,854
+Python -> Backend,2020,Junho,335
+Python -> Backend,2020,Julho,647
+Python -> Backend,2020,Agosto,957
+Python -> Backend,2020,Setembro,1046
+Python -> Backend,2020,Outubro,1153
+Python -> Backend,2020,Novembro,442
+Python -> Backend,2020,Dezembro,811
+Python -> Backend,2021,Janeiro,1057
+Python -> Backend,2021,Fevereiro,359
+Python -> Backend,2021,Março,813
+Python -> Backend,2021,Abril,898
+Python -> Backend,2021,Maio,391
+Python -> Backend,2021,Junho,665
+Python -> Backend,2021,Julho,223
+Python -> Backend,2021,Agosto,1224
+Python -> Backend,2021,Setembro,714
+Python -> Backend,2021,Outubro,1040
+Python -> Backend,2021,Novembro,575
+Python -> Backend,2021,Dezembro,884
+HTML,2019,Janeiro,1048
+HTML,2019,Fevereiro,183
+HTML,2019,Março,153
+HTML,2019,Abril,659
+HTML,2019,Maio,985
+HTML,2019,Junho,350
+HTML,2019,Julho,416
+HTML,2019,Agosto,1205
+HTML,2019,Setembro,346
+HTML,2019,Outubro,1042
+HTML,2019,Novembro,920
+HTML,2019,Dezembro,904
+HTML,2020,Janeiro,527
+HTML,2020,Fevereiro,1073
+HTML,2020,Março,1242
+HTML,2020,Abril,642
+HTML,2020,Maio,288
+HTML,2020,Junho,952
+HTML,2020,Julho,609
+HTML,2020,Agosto,462
+HTML,2020,Setembro,1063
+HTML,2020,Outubro,844
+HTML,2020,Novembro,652
+HTML,2020,Dezembro,584
+HTML,2021,Janeiro,1245
+HTML,2021,Fevereiro,897
+HTML,2021,Março,1018
+HTML,2021,Abril,226
+HTML,2021,Maio,409
+HTML,2021,Junho,499
+HTML,2021,Julho,722
+HTML,2021,Agosto,1249
+HTML,2021,Setembro,755
+HTML,2021,Outubro,405
+HTML,2021,Novembro,1117
+HTML,2021,Dezembro,464
+Node,2019,Janeiro,116
+Node,2019,Fevereiro,1187
+Node,2019,Março,505
+Node,2019,Abril,876
+Node,2019,Maio,928
+Node,2019,Junho,1105
+Node,2019,Julho,119
+Node,2019,Agosto,1046
+Node,2019,Setembro,658
+Node,2019,Outubro,389
+Node,2019,Novembro,188
+Node,2019,Dezembro,1150
+Node,2020,Janeiro,555
+Node,2020,Fevereiro,301
+Node,2020,Março,1004
+Node,2020,Abril,145
+Node,2020,Maio,706
+Node,2020,Junho,611
+Node,2020,Julho,376
+Node,2020,Agosto,912
+Node,2020,Setembro,129
+Node,2020,Outubro,529
+Node,2020,Novembro,1188
+Node,2020,Dezembro,822
+Node,2021,Janeiro,751
+Node,2021,Fevereiro,255
+Node,2021,Março,998
+Node,2021,Abril,829
+Node,2021,Maio,998
+Node,2021,Junho,355
+Node,2021,Julho,904
+Node,2021,Agosto,962
+Node,2021,Setembro,131
+Node,2021,Outubro,548
+Node,2021,Novembro,239
+Node,2021,Dezembro,1103
+R -> Dados,2019,Janeiro,645
+R -> Dados,2019,Fevereiro,1190
+R -> Dados,2019,Março,433
+R -> Dados,2019,Abril,1182
+R -> Dados,2019,Maio,1250
+R -> Dados,2019,Junho,1120
+R -> Dados,2019,Julho,398
+R -> Dados,2019,Agosto,1194
+R -> Dados,2019,Setembro,874
+R -> Dados,2019,Outubro,274
+R -> Dados,2019,Novembro,144
+R -> Dados,2019,Dezembro,1140
+R -> Dados,2020,Janeiro,1247
+R -> Dados,2020,Fevereiro,926
+R -> Dados,2020,Março,1228
+R -> Dados,2020,Abril,951
+R -> Dados,2020,Maio,646
+R -> Dados,2020,Junho,937
+R -> Dados,2020,Julho,721
+R -> Dados,2020,Agosto,965
+R -> Dados,2020,Setembro,288
+R -> Dados,2020,Outubro,1186
+R -> Dados,2020,Novembro,321
+R -> Dados,2020,Dezembro,1073
+R -> Dados,2021,Janeiro,410
+R -> Dados,2021,Fevereiro,562
+R -> Dados,2021,Março,1101
+R -> Dados,2021,Abril,928
+R -> Dados,2021,Maio,642
+R -> Dados,2021,Junho,640
+R -> Dados,2021,Julho,150
+R -> Dados,2021,Agosto,1215
+R -> Dados,2021,Setembro,315
+R -> Dados,2021,Outubro,442
+R -> Dados,2021,Novembro,817
+R -> Dados,2021,Dezembro,430
+C# -> Jogos,2019,Janeiro,866
+C# -> Jogos,2019,Fevereiro,258
+C# -> Jogos,2019,Março,507
+C# -> Jogos,2019,Abril,205
+C# -> Jogos,2019,Maio,198
+C# -> Jogos,2019,Junho,131
+C# -> Jogos,2019,Julho,410
+C# -> Jogos,2019,Agosto,332
+C# -> Jogos,2019,Setembro,455
+C# -> Jogos,2019,Outubro,520
+C# -> Jogos,2019,Novembro,519
+C# -> Jogos,2019,Dezembro,1190
+C# -> Jogos,2020,Janeiro,922
+C# -> Jogos,2020,Fevereiro,351
+C# -> Jogos,2020,Março,251
+C# -> Jogos,2020,Abril,388
+C# -> Jogos,2020,Maio,829
+C# -> Jogos,2020,Junho,283
+C# -> Jogos,2020,Julho,284
+C# -> Jogos,2020,Agosto,642
+C# -> Jogos,2020,Setembro,888
+C# -> Jogos,2020,Outubro,277
+C# -> Jogos,2020,Novembro,652
+C# -> Jogos,2020,Dezembro,134
+C# -> Jogos,2021,Janeiro,327
+C# -> Jogos,2021,Fevereiro,471
+C# -> Jogos,2021,Março,294
+C# -> Jogos,2021,Abril,744
+C# -> Jogos,2021,Maio,815
+C# -> Jogos,2021,Junho,631
+C# -> Jogos,2021,Julho,248
+C# -> Jogos,2021,Agosto,797
+C# -> Jogos,2021,Setembro,1041
+C# -> Jogos,2021,Outubro,806
+C# -> Jogos,2021,Novembro,918
+C# -> Jogos,2021,Dezembro,287
+Vue.JS,2019,Janeiro,862
+Vue.JS,2019,Fevereiro,557
+Vue.JS,2019,Março,265
+Vue.JS,2019,Abril,255
+Vue.JS,2019,Maio,525
+Vue.JS,2019,Junho,408
+Vue.JS,2019,Julho,172
+Vue.JS,2019,Agosto,692
+Vue.JS,2019,Setembro,1107
+Vue.JS,2019,Outubro,1223
+Vue.JS,2019,Novembro,449
+Vue.JS,2019,Dezembro,1025
+Vue.JS,2020,Janeiro,219
+Vue.JS,2020,Fevereiro,876
+Vue.JS,2020,Março,943
+Vue.JS,2020,Abril,741
+Vue.JS,2020,Maio,1113
+Vue.JS,2020,Junho,828
+Vue.JS,2020,Julho,709
+Vue.JS,2020,Agosto,1231
+Vue.JS,2020,Setembro,1133
+Vue.JS,2020,Outubro,142
+Vue.JS,2020,Novembro,142
+Vue.JS,2020,Dezembro,711
+Vue.JS,2021,Janeiro,804
+Vue.JS,2021,Fevereiro,619
+Vue.JS,2021,Março,642
+Vue.JS,2021,Abril,936
+Vue.JS,2021,Maio,472
+Vue.JS,2021,Junho,254
+Vue.JS,2021,Julho,324
+Vue.JS,2021,Agosto,1210
+Vue.JS,2021,Setembro,728
+Vue.JS,2021,Outubro,185
+Vue.JS,2021,Novembro,351
+Vue.JS,2021,Dezembro,255

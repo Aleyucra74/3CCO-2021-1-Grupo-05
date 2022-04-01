@@ -1,0 +1,145 @@
+body {
+    position: relative;
+    background-image: url(../images/backgroundTestePersonalidade.png) !important;
+    background-position: center;
+    background-size: 100% auto ;
+    background-attachment: fixed;
+}
+
+.right{
+    float: right;
+}
+
+.left{
+    float: left;
+}
+
+.teste-personalidade {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 39;
+    font-size: 15px;
+    color: var(--color-white);
+    background: none;
+    border-radius: 12px;
+    border: 1px solid white;
+    width: 85%;
+    height: auto;
+    margin-left: 7%;
+    margin-top: 1%;
+    padding: 0 15px;
+    outline: none;
+}
+
+.teste-personalidade :focus{
+    border: 1px solid var(--color-primary);
+}
+
+.section-title {
+    display: flex;
+    flex-direction: column;
+    padding-top: 2em;
+}
+
+.section-title h2 {
+    font-family: 'Roboto', sans-serif;
+    font-size: 30px;
+    font-weight: bold;
+    color: white;
+    text-align: center;
+    line-height: 2.5rem;
+    margin-left: 40px;
+}
+
+#personalidade {
+    color: #7ACDF1;
+    font-size: 50px;
+}
+
+.section-title h1 {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 39;
+    font-size: 15px;
+    text-align: center;
+    margin-left: 42px;
+}
+
+.test-slider {
+    padding-left: 25%;
+    padding-bottom: 40px;
+}
+
+.DiscreteSlider {
+    background-color: ivory;
+}
+
+#confirmar, #sair{
+    margin-top: 15px;
+    width: 100px;
+    height: 30px;
+    color: #000;
+    font-size: 16px;
+    text-decoration: bold;
+    border-radius: 4px;
+    align-items: center;
+    background-color: #fff;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+#confirmar{
+    margin-left: 90px;
+}
+
+#sair{
+    margin-left: 185px;
+}
+
+
+#confirmar:hover, #sair:hover{
+    background-color: #8f8989;
+}
+
+.text-modal{
+    width: 85%;
+    text-align: center;
+}
+
+.pers-pic{
+    width: 15%;
+}
+
+.text-modal h1{
+    font-size: 18px;
+    margin-top: 30px;
+}
+
+.text-modal h2{
+    margin-bottom: 10px;
+}
+
+footer{
+    width: 100%;
+    text-align: center;
+}
+
+.button-pro{
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    font-size: 18px;
+    padding: 5px;
+    color: black;
+    background-color: var(--color-primary);
+    border: 1px solid var(--color-primary);
+    border-radius: 10px;
+    width: 30%;
+    margin-top: 20px;
+    text-decoration: none;
+    cursor: pointer;
+    margin-right: 110px;
+    margin-top: 80px;
+    margin-bottom: 50px;
+}
+
+.MuiSlider-root {
+    color: #7ACDF1 !important;
+}

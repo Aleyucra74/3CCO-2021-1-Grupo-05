@@ -1,0 +1,203 @@
+.right{
+    float: right;
+}
+
+.left{
+    float: left;
+}
+
+.container{
+    align-items: center;
+}
+
+.proj-info{
+    width: 60%;
+    height: 100%;
+    margin-bottom: 20px;
+    width: 80%;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.desc-proj{
+    grid-column: auto;
+}
+
+.info-basic{
+    background: #C4C4C4;
+    margin-top: 0px;
+    border-radius: 14px;
+    min-height: 100px;
+    max-height: 120px;
+    overflow: hidden;
+}
+
+.info-habil{
+    height: 305px;
+    background: #C4C4C4;
+    margin-top: 30px;
+    border-radius: 14px;
+    max-height: 305px;
+    overflow: hidden;
+}
+
+.text-basic{
+    padding: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    color:#403D3D;
+    overflow: unset;
+}
+
+.fs-17{
+    font-size: 17px;
+}
+
+.pers-info{
+    width: 30%;
+    height: 420px;
+    margin-bottom: 20px;
+}
+
+.pers-circle{
+    height: 220px;
+    width: 220px;
+    border-radius: 50%;
+    margin: auto;
+    margin-bottom: 20px;
+}
+
+#PerfilUser{
+    height: 100%;
+    width: 100%;
+    margin: auto;
+}
+
+.pers-info h2{
+    text-align: center
+}
+
+.pers-info h5{
+    text-align: center
+}
+
+.pers-dados{
+    height: 120px;
+    width: 290px;
+    margin-top: 15px;
+    display: flex;
+    margin-left: auto;
+    margin-right: auto ;
+    border-radius: 14px;
+    background: #C4C4C4;
+    font-size: 20px;
+    position: relative;
+    overflow: hidden;
+}
+
+.pers-info H2 {
+    margin-top: -8px;
+    font-size: 25px;
+}
+.pers-info H5 {
+    font-size: 15px;
+    text-decoration: underline;
+    cursor: pointer;
+    color: #6C6868;
+}
+
+.pers-info H5:hover {
+    color: #fff;
+    transition-duration: 0.5s;
+}
+
+.pers-dados span {
+    color: #000;
+    font-size: 18px;
+    margin-left: 10px;
+    margin-top: 5px;
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+    overflow: hidden;
+
+}
+
+#prompt {
+    flex-shrink: 0;
+    cursor: default;
+  }
+
+.pers-dados b{
+    color: #080842;
+    cursor: text;
+}
+
+
+.speech-bubble {
+	position: relative;
+	background: #c4c4c4;
+	border-radius: .4em;
+}
+
+.speech-bubble:after {
+	content: '';
+	position: absolute;
+	left: 0;
+	top: 50%;
+	width: 0;
+	height: 0;
+	border: 29px solid transparent;
+	border-right-color: #c4c4c4;
+	border-left: 0;
+	border-bottom: 0;
+	margin-top: -14.5px;
+	margin-left: -29px;
+}
+
+.media{
+    height: 40px;
+    width: 60%;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+    list-style-type: none;
+    color: var(--color-white);
+    text-decoration: none;
+    margin: auto;
+    font-size: 17px;
+    
+}
+
+.media a{
+    padding: 10px;
+    margin-top: 15px;
+    color: #dedede;
+}
+
+#select{
+    font-size: 15px;
+}
+
+.info-plus{
+    font-size: 18px;
+    padding: 25px;
+    width: 35%;
+}
+
+.info-img{
+    width: 30%;
+    padding: 20px;
+    font-size: 20px;
+    text-align: center;
+}
+
+.info-img img{
+    width: 50px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto
+}

@@ -1,0 +1,125 @@
+body {
+    background-image: url(../images/searchProjects.png) !important;
+    background-position: center;
+    background-size: 100% auto ;
+    background-attachment: fixed;
+}
+
+.container-search {
+    margin: 0 4%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+section {
+    width: 100%;
+    padding-bottom: 15px;
+}
+
+/* secao de pesquisa */
+.section-oferta {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.section-oferta h2 {
+    font-family: 'Montserrat', sans-serif;
+    color: var(--color-primary);
+    font-size: 50px;
+}
+
+.ofertas-input {
+    display: flex;
+    align-items: center;
+    width: 75%;
+}
+
+.textField {
+    background-color: none;
+    border: 1px solid white !important;
+    border-radius: 10px;
+}
+
+.button-oferta {
+    width: 150px;
+    padding: 10px 10px;
+    border: 1px var(--color-primary) solid;
+    border-radius: 8px;
+    background-color: var(--color-primary);
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    font-size: 15px;
+    cursor: pointer;
+}
+
+/* combo box */
+.section-combo-box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-left: 1%;
+    margin-bottom: 50px;
+}
+
+.section-combo-box h2 {
+    font-family: 'Montserrat', sans-serif;
+    color: var(--color-primary);
+    font-size: 40px;
+    margin-top: 15px;
+}
+
+.div-combo {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 100%;
+}
+
+.div-combo2 {
+    margin-top: 30px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 100%;
+}
+
+.textField > div > input {
+    color: white !important;
+}
+
+.text-field-style {
+    color: white;
+}
+
+.text-field-style > div > label {
+    color: white !important;
+}
+
+.combo-style {
+    width: 100%;
+    margin: 0 10px;
+}
+
+.combo-style h3 {
+    color: white;
+    font-size: 20px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+}
+    
+/* section ofertas */
+.section-ofertas {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#h2-textField {
+    color: white;
+    font-size: 20px;
+    padding-bottom: 10px;
+    padding-top: 32px;
+    padding-right: 25px;
+    width: 100%;
+}

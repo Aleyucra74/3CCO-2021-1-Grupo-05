@@ -1,0 +1,224 @@
+body {
+    position: relative;
+    background-attachment: fixed;
+}
+
+main.container-login {
+    display: flex;
+    margin: 0 10%;
+    height: 100%;
+}
+
+section {
+    width: 50%;
+}
+
+.section-title {
+    display: flex;
+    flex-direction: column;
+    padding-top: 4em;
+}
+
+.section-title h2 {
+    font-family: 'Oswald', sans-serif;
+    color: var(--color-primary);
+    font-size: 40px;
+    margin-left: 50px;
+}
+
+.section-title p {
+    font-family: 'Roboto', sans-serif;
+    font-size: 25px;
+    font-weight: bold;
+    text-align: start;
+    line-height: 2.5rem;
+    margin-left: 50px;
+}
+
+#Txtagora {
+    color: #7ACDF1;
+}
+
+
+/* login */
+main > .section-login {
+    margin: 0 0 0 2rem;
+    width: auto;
+}
+
+.div-login {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 2.5rem 1.5rem 35px;
+    border: 2px solid white;
+    border-radius: 15px;
+    backdrop-filter: blur(15px);
+    margin: 0 4rem 0 6rem;
+    min-height: 450px;
+    min-width: 372px;
+}
+
+.facebook-button {
+    display: inline-flex;
+    align-items: center;
+    font-family: 'Roboto', sans-serif;
+    width: auto;
+    color: var(--color-white);
+    background-color: var(--color-facebook);
+    border: 0.1px solid rgb(255, 255, 255);
+    border-radius: 8px;
+    padding: 1vh 1vw;
+    font-size: 1rem;
+    margin-bottom: 0.4rem
+}
+
+.facebook-button > i {
+    padding-right: 6px;
+}
+
+.facebook-button:hover {
+    cursor: pointer;
+    opacity: 0.8;
+    transition-duration: 0.2s;
+}
+
+.google-button {
+    width: 94%;
+    border-radius: 8px !important;
+    margin-bottom: 0.5rem
+}
+
+.google-button > div {
+    border-radius: 8px !important;
+    margin-left: 1px !important;
+    padding-right: 10px !important;
+}
+
+.google-button:hover {
+    cursor: pointer;
+    opacity: 0.8;
+    transition-duration: 0.9s;
+}
+
+.text-line {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 100%;
+    padding: 0 5%;
+}
+
+hr {
+    width: 20%;
+}
+
+.text-line:first-of-type hr{
+    width: 100%;
+}
+
+.text-line p {
+    font-family: 'Roboto', sans-serif;
+    font-size: 12px;
+    padding: 0 10px;
+}
+
+/* inputs */
+/* .input-label {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    font-size: 10px;
+    width: 100%;
+    padding: 0 10px;
+} */
+
+.input-h2 {
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    margin: 10px 0;
+}
+
+.input-label {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 39;
+    font-size: 15px;
+    color: var(--color-white);
+    background: none;
+    border-radius: 12px;
+    border: 1px solid white;
+    width: 100%;
+    height: 35px;
+    padding: 0 15px;
+    outline: none;
+}
+
+.input-label > input:focus {
+    border: 1px solid var(--color-primary);
+}
+
+.input-errors {
+    font-family: 'Roboto', sans-serif;
+    font-size: 15px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    color: #ff8989;
+}
+
+.button-login {
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    font-size: 16px;
+    padding: 5px;
+    color: var(--color-white);
+    border: 1px solid white;
+    border-radius: 12px;
+    background: none;
+    width: 100%;
+    padding: 5px 3em;
+    margin: 10px 0;
+}   
+
+.button-login:hover {
+    cursor: pointer;
+    opacity: 0.9;
+    background-color: #7ACDF1;
+    color:rgb(44, 44, 44);
+    transition-duration: 0.8s;
+    border: 1px solid;
+}
+
+.button-register {
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    font-size: 12px;
+    padding: 5px;
+    color: #000;
+    background: var(--color-white);
+    border-radius: 8px;
+    border: 1px solid white;
+    width: 100%;
+    padding: 10px 4.5em;
+    margin: 10px 0 0;
+}
+
+.button-register:hover {
+    cursor: pointer;
+    opacity: 0.9;
+    background-color: #7ACDF1;
+    transition-duration: 0.8s;
+    border: 1px solid;
+}
+
+#Ptrinagulo{
+    width: 18px;
+    cursor: pointer;
+}
+
+form{
+    width: 90%;
+}
+
+.error-toast{
+    /* background-color: rgb(185, 65, 65); */
+    font-size: 14px;
+}
